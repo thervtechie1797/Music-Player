@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 10px 20px;
+  height: autos;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#themeBtn {
+  float: right;
+  padding: 5px 20px;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+.heading {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: brown;
+}
+
+.dark-mode h1 {
+  color: white;
+}
+
+.container {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.container .all-song {
+  background-color: #337edc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container .all-song label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.all-song select {
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 10px;
+  color: darkblue;
+  font-weight: 600;
+}
+
+.container .displaySongs h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: brown;
+}
+
+.all-song ul {
+  padding: 0;
+}
+.song-items {
+  list-style: none;
+}
+
+.song-item-link {
+  background-color: cyan;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.song-card {
+  width: 350px;
+  background-color: #1e1e2f;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.song-card img {
+  width: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#songTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#artistName {
+  font-size: 16px;
+  color: #aaa;
+}
+
+#audioSrc {
+  width: 100%;
+}
+
+.playControls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.playControls button {
+  background-color: #4e9eff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.playControls button:hover {
+  background-color: #337edc;
+}
+
+.song-card .add-playlist button {
+  background-color: #4e9eff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.add-playlist button:hover {
+  background-color: #337edc;
+}
+
+.playlist {
+  background-color: purple;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.search {
+  display: flex;
+  gap: 5px;
+}
+
+.search input {
+  border-radius: 8px;
+  border: none;
+  padding: 0 5px;
+}
+
+.search button {
+  background-color: #4e9eff;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#playlistItems {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist h2 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.playlistLink {
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+#currentPlaylistSongs {
+  list-style: none;
+  padding: 0;
+}
+
+.songItemLink {
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: white;
+}
